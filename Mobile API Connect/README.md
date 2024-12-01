@@ -1,4 +1,4 @@
-# ReactNativeRESTStarter
+# Mobile API Connect
 
 A React Native project template for integrating REST APIs. This project provides a starting point for building mobile applications that interact with RESTful web services.
 
@@ -16,9 +16,5 @@ A React Native project template for integrating REST APIs. This project provides
 - React Native CLI or Expo CLI
 - Android Studio / Xcode (for running on devices or emulators)
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/ReactNativeRESTStarter.git
-   cd ReactNativeRESTStarter
+
 
