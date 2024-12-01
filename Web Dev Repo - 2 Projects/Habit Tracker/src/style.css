@@ -1,0 +1,216 @@
+/* Reset some basic styles */
+body, h1, h3, p, ul, li, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Universal Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px; /* Slightly larger base font size */
+    line-height: 1.7;
+    background: linear-gradient(120deg, #eef2f3, #d6dbdf);
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 40px; /* Increased padding for better spacing */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* App Container */
+.app {
+    max-width: 1700px; /* Increased width for a more spacious design */
+    width: 100%;
+    margin: auto;
+    padding: 40px; /* Increased padding for more breathing room */
+    background: #ffffff;
+    border-radius: 20px; /* More rounded corners */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* More pronounced shadow for emphasis */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background: #1e1e2f;
+    color: #fff;
+}
+
+.dark-mode .app {
+    background: #2a2a3d;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 3rem; /* Larger heading for more emphasis */
+    color: #4a90e2;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.header button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.header button:hover {
+    background-color: #357abd;
+    transform: scale(1.05);
+}
+
+/* Add Habit Form */
+.add-habit-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 15px; /* More spacing between elements */
+}
+
+.add-habit-form input {
+    flex: 1;
+    padding: 15px 20px;
+    font-size: 1.1rem; /* Larger font size */
+    border: 2px solid #4a90e2;
+    border-radius: 12px;
+    outline: none;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.add-habit-form input:focus {
+    border-color: #357abd;
+    background-color: #eef5ff;
+}
+
+.add-habit-form button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.add-habit-form button:hover {
+    background-color: #357abd;
+    transform: scale(1.05);
+}
+
+.add-habit-form button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Habit List */
+.habit-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increased spacing between habits */
+}
+
+.habit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px; /* Increased padding for a larger habit box */
+    background: linear-gradient(120deg, #f9f9f9, #e9f2ff);
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background-color 0.3s, box-shadow 0.3s;
+}
+
+.habit:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(120deg, #e9f2ff, #d8e9ff);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.habit.completed {
+    text-decoration: line-through;
+    color: #7a7a7a;
+    opacity: 0.8;
+}
+
+.habit h3 {
+    font-size: 1.4rem; /* Larger habit title */
+    font-weight: 500;
+    margin-right: 15px;
+    text-align: left;
+    flex: 1;
+}
+
+/* Habit Actions */
+.habit-actions button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+.habit-actions button:hover {
+    background-color: #3e8e41;
+    transform: scale(1.05);
+}
+
+.habit-actions .delete-btn {
+    background-color: #e53935;
+}
+
+.habit-actions .delete-btn:hover {
+    background-color: #c62828;
+    transform: scale(1.05);
+}
+
+/* Empty List Message */
+.empty-list {
+    text-align: center;
+    font-size: 1.3rem; /* Larger empty list message */
+    color: #7a7a7a;
+    padding: 30px 0;
+    font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2.5rem;
+    }
+
+    .add-habit-form input {
+        font-size: 1rem;
+    }
+
+    .habit h3 {
+        font-size: 1.2rem;
+    }
+
+    .habit-actions button {
+        font-size: 0.9rem;
+    }
+}
