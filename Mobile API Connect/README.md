@@ -1,24 +1,24 @@
-# React Native Api Calling Example with search
+# ReactNativeRESTStarter
 
-Api source: https://randomuser.me/api
-## Demo
-![alt text](ss/demo.gif "Logo Title Text 1")
+A React Native project template for integrating REST APIs. This project provides a starting point for building mobile applications that interact with RESTful web services.
 
-## Getting started
+## Features
+- Basic setup for REST API calls using `Fetch` or `Axios`.
+- Example components for displaying API data.
+- Error handling for network failures.
+- Cross-platform support (iOS and Android).
 
- 1. Install React Native as described at [https://facebook.github.io/react-native/docs/getting-started.html#content](https://facebook.github.io/react-native/docs/getting-started.html#content)
- 2. Clone this repository
- 3. Run `npm install` , all required components will be installed automatically
- 
- 4.Run `npm start` if emulator doesnt open .
-  
- ### iOS
-      
-   1. Run `pod install` from `apiCalling/ios` folder
-   2. Start XCode and open generated `apiCalling.xcworkspace`
-   3. Run  `react-native run-ios` in terminal
-    
- ### Android
-    
+## Getting Started
 
-* Run  `react-native run-android` in terminal to run your project on Android.
+### Prerequisites
+- Node.js (>= 14.x)
+- npm or yarn
+- React Native CLI or Expo CLI
+- Android Studio / Xcode (for running on devices or emulators)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ReactNativeRESTStarter.git
+   cd ReactNativeRESTStarter
+
