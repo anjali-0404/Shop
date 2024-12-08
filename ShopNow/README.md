@@ -63,7 +63,7 @@ ShopNow-main/
 ## 🙌 Maintainers  
 
 - [Vani](https://github.com/vanivaranya)  
-- [Shruti](https://github.com/shrutiinarang)  
+- [Shruti](https://github.com/Shruti-Narang)
 
 ---
 
