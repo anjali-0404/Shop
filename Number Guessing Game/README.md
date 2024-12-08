@@ -99,7 +99,7 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 ## 🙌 Maintainers  
 
 - [Vani](https://github.com/vanivaranya)  
-- [Shruti](https://github.com/shrutiinarang)  
+- [Shruti](https://github.com/Shruti-Narang)
 
 ---
 
