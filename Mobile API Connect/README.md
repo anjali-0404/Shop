@@ -78,8 +78,8 @@ We welcome contributions to improve this project! Follow these steps to contribu
 
 ## 🙌 Maintainers  
 
-- [Vani](https://github.com/vanivaranya)  
-- [Shruti](https://github.com/shrutiinarang)  
+- [Vani](https://github.com/vanivaranya)
+- [Shruti](https://github.com/Shruti-Narang)
 
 ---
 
