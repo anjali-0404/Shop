@@ -49,7 +49,7 @@ Welcome to the **Web Development Projects** repository! This collection features
 ## 🙌 Maintainers:
 
 - [Vani](https://github.com/vanivaranya)  
-- [Shruti](https://github.com/shrutiinarang)
+- [Shruti](https://github.com/Shruti-Narang)
 
 ---
 
