@@ -61,7 +61,7 @@ This project is open-source and available under the MIT License.
 # 🙌 Maintainers  
 
 - [Vani](https://github.com/vanivaranya)  
-- [Shruti](https://github.com/shrutiinarang)  
+- [Shruti](https://github.com/Shruti-Narang)
 
 ---
 
