@@ -4,6 +4,31 @@
 
 Welcome to the **Web Development Projects** repository! This collection features a variety of exciting and educational projects that help enhance your web development skills. Let's explore the projects in detail below.
 
+# Steps to Get Started:
+1. Browse Projects: Go through the projects listed on our website or GitHub repository and find one you feel comfortable contributing to.
+2. Explore Issues: Look at the existing issues of your selected project and find one that interests you. Alternatively, you can create issues on your own.
+3. Tag Maintainers: Tag repository maintainers (mentioned in the README) if you encounter any problems.
+4. Get Issue Assigned: Wait for the issue to be assigned to you before starting your work.
+5. Fork the Repository: Create a branch for the issue you're working on.
+6. Submit Your Work: Create a Pull Request (PR), mentioning the issue no. and the changes made by you. It will be promptly reviewed, and suggestions will be provided if needed.
+7. Add Screenshots: Attach screenshots to your PR to demonstrate your contribution.
+8. Follow Repository Guidelines: Each repository's README contains specific contribution guidelines.
+
+# 🙌 Maintainers :
+
+- [Vani](https://github.com/vanivaranya)
+- [Shruti](https://github.com/Shruti-Narang)
+
+# 🙌 Collaborators :
+- [Aakriti](https://github.com/AakxSha)
+- [Yashika](https://github.com/YashikaGupta09)
+- [Anusha](https://github.com/AnushaArora)
+- [Anushka](https://github.com/sharma-anushka)
+- [Disha](https://github.com/technoenthus)
+- [Joysa](https://github.com/joysa21)
+- [Vamika](https://github.com/itsvamz)
+
+
 ---
 
 ## 🎮 Projects List
@@ -46,21 +71,6 @@ Welcome to the **Web Development Projects** repository! This collection features
 
 ---
 
-## 🙌 Maintainers:
-
-- [Vani](https://github.com/vanivaranya)  
-- [Shruti](https://github.com/Shruti-Narang)
-
----
-
-## 🤝 Collaborators:
-
-- [Aakriti](https://github.com/AakxSha)  
-- [Yashika](https://github.com/YashikaGupta09)  
-- [Anusha](https://github.com/AnushaArora)  
-- [Anushka](https://github.com/sharma-anushka)  
-- [Disha](https://github.com/technoenthus)  
-- [Joysa](https://github.com/joysa21)
 
 ---
 
