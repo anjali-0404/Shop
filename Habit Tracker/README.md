@@ -4,6 +4,32 @@
 
 The **Habit Tracker** is a web-based tool designed to help users monitor and improve their daily habits. It provides an easy and intuitive way to track progress, stay motivated, and build better routines.  
 
+# Steps to Get Started:
+1. Browse Projects: Go through the projects listed on our website or GitHub repository and find one you feel comfortable contributing to.
+2. Explore Issues: Look at the existing issues of your selected project and find one that interests you. Alternatively, you can create issues on your own.
+3. Tag Maintainers: Tag repository maintainers (mentioned in the README) if you encounter any problems.
+4. Get Issue Assigned: Wait for the issue to be assigned to you before starting your work.
+5. Fork the Repository: Create a branch for the issue you're working on.
+6. Submit Your Work: Create a Pull Request (PR), mentioning the issue no. and the changes made by you. It will be promptly reviewed, and suggestions will be provided if needed.
+7. Add Screenshots: Attach screenshots to your PR to demonstrate your contribution.
+8. Follow Repository Guidelines: Each repository's README contains specific contribution guidelines.
+
+
+# 🙌 Maintainers  
+
+- [Vani](https://github.com/vanivaranya)  
+- [Shruti](https://github.com/Shruti-Narang)
+- [Aakriti](https://github.com/AakxSha)  
+
+
+---
+
+# 👩‍💻 Owner  
+
+- [Aakriti](https://github.com/AakxSha)  
+
+
+
 ---
 
 ## ✨ Features  
@@ -57,15 +83,4 @@ Contributions are welcome! Here’s how you can help improve the project:
 This project is open-source and available under the MIT License.  
 
 ---
-
-# 🙌 Maintainers  
-
-- [Vani](https://github.com/vanivaranya)  
-- [Shruti](https://github.com/Shruti-Narang)
-
----
-
-# 👩‍💻 Owner  
-
-- [Aakriti](https://github.com/AakxSha)  
 
