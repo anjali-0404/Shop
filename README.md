@@ -72,33 +72,8 @@ Welcome to the **Web Development Projects** repository! This collection features
 ---
 
 
----
 
-## ☃️ How to get started?
 
-To get started and contribute to the **Web Development Projects**, follow the steps below:
-
-1. **Learn how to contribute to GDSC IGDTUW SnowScript Winter of Code Projects**  
-   Watch the resources provided below to understand how to contribute.
-
-2. **Go through this repository to learn step-by-step how to contribute.**  
-   - Fork the repository 🍴  
-   - Clone the repository to your local machine 🖥️  
-   - Create a new branch for your feature 🛠️  
-   - Make changes and commit them 📅  
-   - Push your branch and open a pull request 🌟
-
-3. **Resources to Get Started with Git and GitHub**  
-   - **Forking a Repo**  
-     Learn how to fork a repository to make your own copy to work on. 🍴  
-   - **Cloning a Repo**  
-     Clone the repository to your local machine for editing. 🖥️  
-   - **How to Create a Pull Request**  
-     Once you’ve made changes, create a pull request to propose them back to the original repository. 🔄  
-   - **Getting Started with Git and GitHub**  
-     Watch this video to get a full understanding of Git and GitHub. 🎥
-
----
 
 ## 📜 License
 
