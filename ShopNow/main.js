@@ -81,5 +81,31 @@ navBar.forEach(function(a){
     a.addEventListener("click", function(){
         navCollapse.classList.remove("show");
     })
+    let cart = [];
+let cartCount = document.getElementById('cart-count');
+
+function addToCart(product) {
+    cart.push(product);
+    updateCartCount();
+}
+
+function updateCartCount() {
+    cartCount.innerText = cart.length;
+}
+
+function viewCart() {
+    let cartItems = cart.map(item => `<li>${item.name} - ₹${item.price}</li>`).join('');
+    alert(`Cart Items:\n${cartItems}`);
+}
+
+document.querySelectorAll('.add_to_Card').forEach((button, index) => {
+    button.addEventListener('click', function() {
+        let productName = button.parentElement.querySelector('h3').innerText;
+        let productPrice = button.parentElement.querySelector('.amount').innerText.replace('₹', '').replace(',', '');
+        addToCart({ name: productName, price: productPrice });
+    });
+});
+
+document.getElementById('cart-icon').addEventListener('click', viewCart);
 })
 
