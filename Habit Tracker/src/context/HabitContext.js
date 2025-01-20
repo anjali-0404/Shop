@@ -53,8 +53,16 @@ export const HabitProvider = ({ children }) => {
         });
     };
 
+    const clearCompletedHabits = () =>{
+        setHabits(prev => {
+            const updatedHabits = prev.filter((habit) => !habit.completed);
+            setLocalStorage('habits', updatedHabits);
+            return updatedHabits;
+        });
+    }
+
     return (
-        <HabitContext.Provider value={{ habits, addHabit, toggleComplete, deleteHabit }}>
+        <HabitContext.Provider value={{ habits, addHabit, toggleComplete, deleteHabit, clearCompletedHabits }}>
             {children}
         </HabitContext.Provider>
     );

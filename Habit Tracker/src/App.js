@@ -21,8 +21,10 @@ const App = () => {
     );
 };
 
-export default () => (
+const WrappedApp = () => (
     <HabitProvider>
         <App />
     </HabitProvider>
 );
+
+export default WrappedApp;
