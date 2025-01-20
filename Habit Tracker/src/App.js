@@ -1,27 +1,23 @@
 // src/App.js
-import React, { useState, useContext } from 'react';
-import Header from './components/Header';
-import HabitList from './components/HabitList';
-import AddHabitForm from './components/AddHabitForm';
-import { HabitContext, HabitProvider } from './context/HabitContext';
-import './style.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HabitProvider } from './context/HabitContext';
+import Home from './components/Home';
+import HabitListPage from './components/HabitListPage';
+
 
 const App = () => {
-    const { habits, addHabit, toggleComplete, deleteHabit } = useContext(HabitContext);
-    const [isDarkMode, setIsDarkMode] = useState(false);
-
-    const toggleDarkMode = () => setIsDarkMode(!isDarkMode);
-
-    return (
-        <div className={isDarkMode ? 'app dark-mode' : 'app'}>
-            <Header toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} />
-            <AddHabitForm addHabit={addHabit} />
-            <HabitList
-                habits={habits}
-                toggleComplete={toggleComplete}
-                deleteHabit={deleteHabit}
-            />
-        </div>
+        return (
+        <Router>
+            <nav>
+                {/* Add navigation links */}
+                <Link to="/">Home</Link> | <Link to="/all-habits">All Habits</Link>
+            </nav>
+            <Routes>
+                <Route path="/" element={<Home />}/>
+                <Route path="/all-habits" element={<HabitListPage />} />
+            </Routes>
+        </Router>
     );
 };
 
