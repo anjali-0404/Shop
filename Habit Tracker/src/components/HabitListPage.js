@@ -1,31 +1,29 @@
 import React, { useContext } from 'react';
 import { HabitContext } from '../context/HabitContext';
+import HabitList from './HabitList';
 import '../styling/HabitListPage.css'; // Import the CSS file
 
 const HabitListPage = () => {
-    const { habits } = useContext(HabitContext);
-
+   
+    const { habits, addHabit, toggleComplete, deleteHabit, clearCompletedHabits } = useContext(HabitContext);
     return (
         <div className="habit-page">
-            <div className="habit-page-title" style={{fontFamily:"dancing", fontSize:"30px"}}>All Habits</div>
-            <ul className="habit-list">
+            
+            <h1 style={{display:"flex",justifyContent:"center",color:"#4a90e2",fontSize: "50px"}}>All Habits</h1>
+           
+            {/* <div className="habit-page-title" style={{ fontFamily: "dancing", fontSize: "30px" }}></div> */}
+            
 
-                {habits.length>0 ? habits.map((habit, index) => (
-                    <li
-                        key={index}
-                        className={`habit-item ${habit.completed ? 'completed' : 'incomplete'}`}
-                    >
-                        <span className="habit-name">{habit.name}</span>
-                        <span className="habit-status">
-                            {habit.completed ? 'Completed' : 'Incomplete'}
-                        </span>
-                    </li>
-                )):(
-                    <div style={{display:'flex',justifyContent:"center"}}>
+                {habits.length > 0 ? <HabitList
+                    habits={habits}
+                    toggleComplete={toggleComplete}
+                    deleteHabit={deleteHabit}
+                /> : (
+                    <div style={{ display: 'flex', justifyContent: "center" }}>
                         Oops! You dont have any habits saved yet
                     </div>
                 )}
-            </ul>
+          
         </div>
     );
 };
