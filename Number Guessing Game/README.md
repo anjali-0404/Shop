@@ -15,11 +15,10 @@ The **Number Guessing Game** is a fun, interactive project where players attempt
 
 ---
 
-## 💻 Technologies Used  
+## 💻 Technologies Used
 
-- 🏗️ **HTML**: Structures the web-based interface (if applicable).  
-- 🎨 **CSS**: Adds style and enhances visual appeal.  
-- ⚙️ **JavaScript** or **Python**: Powers the game logic and user interactions.  
+⚛️ React: The core framework used to build the app's interactive user interface.
+⚙️ JavaScript: Powers the app's logic, interactions, and dynamic features.
 
 ---
 

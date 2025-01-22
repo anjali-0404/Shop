@@ -52,7 +52,7 @@ Welcome to the **Web Development Projects** repository! This collection features
   - User-friendly and minimalistic interface. 🖥️
 
 ### 3. **Number Guessing Game** 🎲
-**Number Guessing Game** is a fun web-based game where users try to guess a randomly generated number within a specific range. It’s a simple, interactive game to improve your basic JavaScript skills.
+**Number Guessing Game** is a fun web-based game where users try to guess a randomly generated number within a specific range. It’s a simple, interactive game to improve your React skills.
 
 - **Features**:  
   - User-friendly interface with instructions. 📝  
